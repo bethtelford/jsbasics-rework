@@ -139,16 +139,16 @@ function pond() {
 
 //Given the functions and variables above, edit the arrays below to contain only the appropriate variable names as strings
 
-//This array should contain the variables accessable in the global scope.
+//This array should contain the variable names (as strings) accessable in the global scope.
 let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
-//This array should contain the variables accessable in the bathroom function.
+//This array should contain the variable names (as strings) accessable in the bathroom function.
 let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
-//This array should contain the variables accessable in the bathtub function.
+//This array should contain the variable names (as strings) accessable in the bathtub function.
 let bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
-//This array should contain the variables accessable in the pond function.
+//This array should contain the variable names (as strings) accessable in the pond function.
 let pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
 
