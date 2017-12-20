@@ -1,16 +1,32 @@
+//=========DO NOT TOUCH THIS CODE=========//
+function greetingsEarthlings(){ return { greeting, newGreeting, finalGreeting } }
+var sup = greetingsEarthlings()
+//============Continue below=============//
+
+
+
+//+++++++++ Start Here! All problems are below. +++++++++//
+
+
+
 //////////////////PROBLEM 1////////////////////
 
-//Create a function declaration called greeting that accepts name as it's only parameter.
-//greeting should return the string "Hello, " plus the value of the name parameter. 
+//Create a function declaration called greeting that 
+//accepts name as it's only parameter.
+//greeting should return the string "Hello, " 
+//plus the value of the name parameter. 
 
-  //Code Here
+//Code here
+
+
 
 //////////////////PROBLEM 2////////////////////
 
 //Rewrite the function greeting as a function expression.
 //Name it newGreeting
 
-  //Code Here
+//Code Here
+
 
 
 //////////////////PROBLEM 3////////////////////
@@ -18,25 +34,37 @@
 //Rewrite the function greeting as an arrow function.
 //Name it finalGreeting
 
-  //Code Here
+//Code Here
+
+
+//=========DO NOT TOUCH THIS CODE=========//
+var greetingsTester = { finalGreeting, newGreeting, greeting }
+//============Continue below=============//
 
 
 //////////////////PROBLEM 4////////////////////  
 
-//Create an array called groceries with the values "apples", "milk", "eggs", "bread"
+//Create an array called groceries with the values 
+//"apples", "milk", "eggs", "bread"
 
   //Code Here
+  var groceries = ["apples", "milk", "eggs", "bread"]
 
 
-//Write a function called doubleCheck that takes in an array as a parameter.
-//If the array does not contain "chocolate", add "chocolate"
+//Write a function called doubleCheck that takes in an array 
+//as a parameter.
+//If the array does not contain "chocolate", add "chocolate".
+//doubleCheck should return the array.
 
   //Code Here
 
 
 //Write a function called diet that takes in a number parameter.
-//Remove the string from groceries at the index of the parameter. 
+//diet should remove the element from holidayGroceries at 
+//the index of the parameter. 
 
+  var holidayGroceries = ["butter", "sugar", "chocolate", "cookies", "cinnamon"]
+  
   //Code Here
 
 
@@ -50,12 +78,13 @@ let dog = {
   treats: 0,
   goodBoy: false
 }
-//...console.log the dog's name.
+//...assign the dog's name to a variable called devMountainClassPet.
 
-  //Code Here
+    //Code Here
+  
 
-
-//Write a function called cleanSlate that removes all the properties from the dog object that contain a falsy value
+//Write a function called cleanSlate that removes all 
+//the properties from the dog object that contain a falsy value 
 
   //Code Here
 
@@ -69,20 +98,24 @@ let dog = {
 
 
 //Add a property to myDog called bark.
-//The value of bark should be a function that returns the strings "Woof"
+//The value of bark should be a function that returns the string "Woof"
 
   //Code Here
 
 
-//Invoke the bark method.
+//Store the result of invoking the bark method in a variable called ruff
 
   //Code Here
 
 
 //////////////////PROBLEM 7////////////////////
 
-//Write a function called dogAdopter that takes in a name, a color, and an age parameters.
-//dogAdopter should return an object with the properties of name, color, and age.
+//Write a function called dogAdopter that takes in a name, a color, 
+//and an age parameters.
+
+//dogAdopter should return an object with the properties of name, 
+//color, and age.
+
 //The properties should have the value of the corresponding paramter. 
 
   //Code Here
@@ -90,7 +123,7 @@ let dog = {
 
 //////////////////PROBLEM 8////////////////////
 
-//Given the following function
+//Given the following function called math
 
 function math(num1, num2, callback) {
   return callback(num1, num2)
@@ -101,7 +134,8 @@ function math(num1, num2, callback) {
   //Code Here
 
 
-//Now invoke math, passing in the numbers 3 and 4, and your add function
+//Now invoke math, passing in the numbers 3 and 4, and your add function,
+//storing the result in the variable mathSum
 
   //Code Here
 
@@ -120,6 +154,7 @@ function sampleCallbackTwo() {
 }
 
   //Code Here
+  
 
 
 //////////////////PROBLEM 10////////////////////
@@ -137,31 +172,40 @@ function pond() {
   let realDuck = 'fluffy';
 }
 
-//Given the functions and variables above, edit the arrays below to contain only the appropriate variable names as strings
+//Given the functions and variables above, edit the arrays 
+//below to contain only the appropriate variable names 
+//as strings
 
-//This array should contain the variable names (as strings) accessable in the global scope.
+//This array should contain the variable names (as strings) accessible in the global scope.
 let globalScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
-//This array should contain the variable names (as strings) accessable in the bathroom function.
+
+//This array should contain the variable names (as strings) accessible in the bathroom function.
 let bathroomScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
-//This array should contain the variable names (as strings) accessable in the bathtub function.
+
+//This array should contain the variable names (as strings) accessible in the bathtub function.
 let bathtubScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
 
-//This array should contain the variable names (as strings) accessable in the pond function.
+
+//This array should contain the variable names (as strings) accessible in the pond function.
 let pondScope = ['duck', 'sailorDuck', 'rubberDuck', 'realDuck'];
+
 
 
 //////////////////PROBLEM 11////////////////////
 
-//Create a function called outerFn which returns an anonymous function which returns your name.
+//Create a function called outerFn which returns an anonymous 
+//function which returns your name.
 
   //Code Here
+
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
 
-//Now invoke innerFn.
+
+//Now invoke innerFn and save the result to a variable called finalResult.
 
   //Code Here
